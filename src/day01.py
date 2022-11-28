@@ -19,9 +19,8 @@ def part1():
 
 
 def part2():
-    with open("data/input01.txt", 'r') as file:
+    with open(input, 'r') as file:
         c = 0
-        sum_ = 0
         [x, y, z] = [int(file.readline()) for _ in range(3)]
 
         for line in file:
